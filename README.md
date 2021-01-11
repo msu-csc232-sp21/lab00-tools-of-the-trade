@@ -81,8 +81,7 @@ This lab assumes (and in fact requires) that you have a GitHub account. Visit [G
 
    ![Final Conffirmation](./04-PostRefresh.png)
 
-   Don't bother following first link that asks you first accept an invitation to `msu-csc232-sp21` (for some reason, this isn't working as expected; you'll receive an invitation sometime after you complete this lab). The second link will take you to your newly created repository. Follow that link and continue reading this README.
-
+   Don't bother following first link that asks you first accept an invitation to `msu-csc232-sp21` (for some reason, this isn't working as expected; you'll receive an invitation that I'll manually send sometime after you complete this lab). The second link will take you to your newly created repository. Follow that link and continue reading this README.
 
 ### Cloning a GitHub Repository
 
