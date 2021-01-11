@@ -4,7 +4,7 @@ This non-graded assignment is used just to get students linked into the CSC232 G
 
 _As suggested in the previous sentence, this is a non-graded assignment. Whether you choose to work on this or not is your perrogative. The end-goal of this assignment is to simply link you to my GitHub classroom. This will happen simply by virtue of you following the assignment link provided to you by your instructor._
 
-**Please note**: This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-fa20/lab00/issues](https://github.com/msu-csc232-fa20/lab00/issues).
+**Please note**: This assignment has been re-used for several semesters and as such, there may be some screen snapshots that appear different from your experience. If this descrepency creates any confusion for you, please raise an issue here: [https://github.com/msu-csc232-sp21/lab00-tools-of-the-trade/issues](https://github.com/msu-csc232-sp21/lab00-tools-of-the-trade/issues).
 
 ## Goals
 
@@ -54,6 +54,36 @@ Furthermore, you'll want to check out these videos hosted on YouTube. The follow
 
 With each assignment in CSC232, students are given a URL that must be followed. When the student follows the given URL, a process is kicked off wherein a new repository is created in their GitHub account. Once the repository is created by this background process, the student may clone the repository and work with it as required.
 
+Since this is the first time you'll be doing this, there are a few steps that are required to link your GitHub account with the course GitHub classroom. _In fact, this step is really the primary purpose of this lab. That is, linking your account with the classroom_.
+
+#### Linking your account
+
+This lab assumes (and in fact requires) that you have a GitHub account. Visit [GitHub Education](https://education.github.com/students) to get started. 
+
+1. Once you have a created a GitHub account, log into [github.com](https://github.com). 
+1. Once you are logged into GitHub, accept this assignment by visiting [https://classroom.github.com/a/5p8ia6mN](https://classroom.github.com/a/5p8ia6mN). Again, since is the first time, you'll encounter the following pages: 
+
+   ![Link Your Account](./01-LinkYourAccount.png)
+
+   As the image suggests, locate _your_ name and tap on the arrow to the right.
+
+   After you select your name, you should encounter the following page:
+
+   ![Accepting the Assignment](./02-AcceptAssignment.png)
+
+   Again, as the text bubbles note, some text won't match exactly what you see. Just be sure that the end of the repo matches your GitHub username before you tap on the "Accept this assignment" button.
+
+   Once you accept the assignment, you'll get a confirmation screen of it's creation. At this point, a background process is creating the repo in your GitHub account.
+
+   ![Confirmation](./03-Confirmation.png)
+
+   Wait a bit (no more than a minute) and refresh that confirmation page. After refreshing, you should see the following page:
+
+   ![Final Conffirmation](./04-PostRefresh.png)
+
+   Don't bother following first link that asks you first accept an invitation to `msu-csc232-sp21` (for some reason, this isn't working as expected; you'll receive an invitation sometime after you complete this lab). The second link will take you to your newly created repository. Follow that link and continue reading this README.
+
+
 ### Cloning a GitHub Repository
 
 Cloning a repository is rather simple. When viewing a GitHub repository online, there is a green button that provides you with the URL needed to clone the repository, as shown here:
@@ -65,7 +95,7 @@ When you tap on that button, you actually have two different options for cloning
 Once you have obtained the repository's URL, cloning is done by simply executing the following `git` command:
 
 ```bash
-git clone https://github.com/msu-csc232-fa20/lab00-your-github-username.git
+git clone https://github.com/msu-csc232-sp21/lab00-your-github-username.git
 ```
 
 Please note the following:
@@ -76,7 +106,7 @@ Please note the following:
 ```bash
 $ mkdir -p csc232/hw
 $ cd csc232/hw
-$ git clone https://github.com/msu-csc232-fa20/lab00-your-github-username.git
+$ git clone https://github.com/msu-csc232-sp21/lab00-your-github-username.git
 Cloning into 'lab00-your-github-username.git'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
@@ -244,4 +274,4 @@ To complete this assignment, one must:
 
 ## Issues
 
-If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-fa20/lab00/issues](https://github.com/msu-csc232-fa20/lab00/issues) and tap on the "New Issue" button.
+If you have found any issues with this lab, e.g., the output of a command didn't match yours, or you have found typos, or one or more sections are worded in a manner that seems confusing or misleading, please bring it to my attention. The best way to do that is to "raise an Issue." Visit [https://github.com/msu-csc232-sp21/lab00/issues](https://github.com/msu-csc232-sp21/lab00/issues) and tap on the "New Issue" button.
